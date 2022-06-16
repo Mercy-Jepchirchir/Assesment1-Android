@@ -34,8 +34,6 @@ class CalculateActivity : AppCompatActivity() {
         tvOutput = findViewById(R.id.tvOutput)
 
 
-
-
         btnAdd.setOnClickListener {
             val number1 = etNumber1.text.toString()
             val number2 = etNumber2.text.toString()
